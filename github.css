@@ -1,0 +1,191 @@
+body{
+    margin:0;
+    padding :0;
+    font-family: 'Marvel', sans-serif;
+}
+nav{
+    background-color: rgba(148, 141, 142, 0.959);
+    width: 100%;
+    height:70px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 2px 3px,
+    rgba(0, 0, 0, 0.12) 0px -12px 3px, rgba(0, 0, 0, 0.12) 0px 4px 2px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+   
+}
+nav img{
+    max-width: 50px;
+}
+nav h1{
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-left: 10px;
+}
+.container{
+    background-color: rgba(231, 230, 231, 0.918);
+    height: 145vh;
+    width:100vw;
+    padding-top: 40px;
+}
+.header{
+    align-items: center;
+    justify-content: center;
+    margin-left:50%;
+    transform: translateX(-50%);
+    width:400px;
+    height: 200px;
+    padding-top: 20px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.header-content{
+    width:400px;
+    margin-left:150px;
+    transform: translateX(-80px);
+    
+}
+.header h1{
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.header h3{
+    text-transform: uppercase;
+    color: rgb(86, 86, 88);
+    font-weight: 900;
+}
+.header input{
+    border:1.5px solid rgba(92, 91, 91, 0.397);
+    padding:10px;
+    width:70%;
+    border-radius: 5px;
+    font-family: 'Marvel', sans-serif;
+    letter-spacing: 1px;
+}
+.header input:focus{
+    outline-color:rgba(14, 146, 124, 0.801);
+    outline-width: 1px;
+}
+
+.profile-card{
+    margin-left:50%;
+    transform: translateX(-50%);
+    width:400px;
+    height: 480px;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.profile-image{
+    width:110px;
+    height: 130px;
+    margin-left:50%;
+    transform: translateX(-50%);
+    margin-bottom:10px;
+}
+.profile-image #link{
+  position: absolute;
+  margin-top: 110px;
+  background-color: darkcyan;
+  padding: 5px;
+  width:100px;
+  text-align: center;
+  border-radius: 5px;
+  color: rgb(252, 252, 252);
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+#link:hover{
+    background-color: rgb(168, 64, 82);
+}
+.profile-image img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+.profile-info{
+    width:100%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    line-height: 40px;
+    text-align: center;
+}
+.badge{
+  
+    width:100%;
+    padding-left:40px;
+    padding-right:40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 5px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 40px;
+
+}
+.badge1{
+    background-color: rgba(6, 163, 32, 0.801);
+    color: rgb(252, 252, 252);
+}
+.badge2{
+    background-color: rgba(6, 126, 163, 0.801);
+    color: rgb(252, 252, 252);
+}
+.badge3{
+    background-color: rgba(163, 6, 32, 0.801);
+    color: rgb(252, 252, 252);
+}
+.badge4{
+    background-color: rgba(11, 36, 105, 0.801);
+    color: rgb(252, 252, 252);
+}
+.list{
+    margin-top:-20px;
+}
+.list li:nth-child(1){
+    list-style-type: none;
+    border-top: 1px solid rgba(85, 83, 83, 0.521);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.list li{
+    list-style-type: none;
+    width:90%;
+    padding:8px;
+    border-bottom: 1px solid ;
+    border-left: 1px solid ;
+    border-right: 1px solid ;
+    border-color: rgba(85, 83, 83, 0.521);
+}
+.list li span{
+  margin-left:10px;
+  
+}
+
+#repos{
+    margin-left:50%;
+    transform: translateX(-50%);
+    width:400px;
+    height: 420px;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 34px 5px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+#repos h3{
+   text-align:center;
+   margin-top:-10px;
+   text-transform: uppercase;
+}
+.repo-list{
+    width:90%;
+    border:1px solid black;
+}
