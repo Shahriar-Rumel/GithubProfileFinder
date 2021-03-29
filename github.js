@@ -3,12 +3,11 @@ class GitHub{
         
         this.repos_count =5;
         this.repos_sort='created: asc';
-        require('dotenv').config();
     }
     async getUser(user){
        
         const headers ={
-            "Authorization" : `Token process.env.API_KEY`
+            "Authorization" : `Token ${config.API_KEY}`
         }
         const url = `https://api.github.com/users/${user}`;
         const profileResponse = await fetch(url,{
