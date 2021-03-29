@@ -1,15 +1,14 @@
 class GitHub{
     constructor(){
-        this.client_id ='00ade7b7bc5ddafcc555';
-        this.client_secret ='3e037eeaa35d6ed413dbd00ff5716ce550b4abfa';
+        // this.client_id ='00ade7b7bc5ddafcc555';
+        // this.client_secret ='3e037eeaa35d6ed413dbd00ff5716ce550b4abfa';
         this.repos_count =5;
         this.repos_sort='created: asc';
     }
-//8475738243758803a2f53e286681a2af094bca03
     async getUser(user){
         
         const headers ={
-            "Authorization" : `Token 8475738243758803a2f53e286681a2af094bca03`
+            "Authorization" : `Token 0d9d538e4bbbba41022646e25e0a69424acfc582`
         }
         const url = `https://api.github.com/users/${user}`;
         const profileResponse = await fetch(url,{

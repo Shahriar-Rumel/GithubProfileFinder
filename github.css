@@ -31,6 +31,7 @@ nav h1{
     padding-top: 40px;
     position: relative;
     left:50%;
+    height: 100vh;
     transform:translateX(-50%);
     overflow-x:hidden;
 }
@@ -74,6 +75,7 @@ nav h1{
 .header input:focus{
     outline-color:rgba(14, 146, 124, 0.801);
     outline-width: 1px;
+    border-radius: 5px;
 }
 
 .profile-card{
@@ -81,7 +83,7 @@ nav h1{
     width:90%;
     margin-left:50%;
     transform: translateX(-50%);
-    height: 500px;
+    height: 530px;
     margin-top: 40px;
     padding-top: 20px;
     border-radius: 5px;
@@ -328,7 +330,7 @@ hr{
 }
 @media (min-width:300px){
     .header{
-        height:200px;
+        height:250px;
      
     }
 }
